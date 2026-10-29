@@ -1,0 +1,9 @@
+.env
+node_modules/
+*.log
+.DS_Store
+# PROS build output
+bin/
+.d/
+*.elf
+*.bin

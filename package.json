@@ -1,0 +1,26 @@
+{
+  "name": "knrc-open-innovation-ada-ll",
+  "version": "1.0.0",
+  "description": "Pi web server: dual camera stream + VEX V5 motor button",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuwait-Technical-College/knrc_open_innovation_ada_ll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuwait-Technical-College/knrc_open_innovation_ada_ll/issues"
+  },
+  "homepage": "https://github.com/Kuwait-Technical-College/knrc_open_innovation_ada_ll#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "serialport": "^13.0.0"
+  }
+}

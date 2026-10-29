@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 1rem; font-family: system-ui, sans-serif; background: #111; color: #eee; text-align: center; }
+h1 { margin: 0 0 1rem; font-size: 1.4rem; }
+.cams { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+figure { margin: 0; flex: 1 1 320px; max-width: 640px; }
+img { width: 100%; aspect-ratio: 4 / 3; background: #000; border-radius: 8px; object-fit: contain; }
+figcaption { margin-top: .25rem; color: #aaa; }
+.controls { margin-top: 1.5rem; }
+button { font-size: 1.2rem; padding: .8rem 2rem; border: 0; border-radius: 8px; background: #2d8cf0; color: #fff; cursor: pointer; }
+button:disabled { background: #555; cursor: wait; }
+#message { min-height: 1.5em; }
+#message.error { color: #ff6b6b; }
+#message.ok { color: #6bff95; }
+.small { color: #888; font-size: .85rem; }

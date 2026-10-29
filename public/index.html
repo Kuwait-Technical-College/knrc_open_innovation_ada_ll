@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KNRC Robot Control</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>KNRC Robot Control</h1>
+    <main class="cams">
+      <figure>
+        <img id="cam1" alt="Camera 1 live feed" />
+        <figcaption>Camera 1</figcaption>
+      </figure>
+      <figure>
+        <img id="cam2" alt="Camera 2 live feed" />
+        <figcaption>Camera 2</figcaption>
+      </figure>
+    </main>
+    <section class="controls">
+      <button id="spin" type="button">Spin Motor</button>
+      <p id="message" role="status"></p>
+      <p id="brain" class="small"></p>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
